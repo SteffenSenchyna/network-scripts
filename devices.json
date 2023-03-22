@@ -1,0 +1,892 @@
+[
+    {
+        "id": 27,
+        "url": "http://0.0.0.0:8000/api/dcim/devices/27/",
+        "display": "CD-L3-1",
+        "name": "CD-L3-1",
+        "device_type": {
+            "id": 14,
+            "url": "http://0.0.0.0:8000/api/dcim/device-types/14/",
+            "display": "Catalyst 9300 24-slot",
+            "manufacturer": {
+                "id": 3,
+                "url": "http://0.0.0.0:8000/api/dcim/manufacturers/3/",
+                "display": "Cisco",
+                "name": "Cisco",
+                "slug": "Cisco"
+            },
+            "model": "Catalyst 9300 24-slot",
+            "slug": "SW9300"
+        },
+        "device_role": {
+            "id": 10,
+            "url": "http://0.0.0.0:8000/api/dcim/device-roles/10/",
+            "display": "Core/Distribution Switch",
+            "name": "Core/Distribution Switch",
+            "slug": "DIST-CORE"
+        },
+        "tenant": null,
+        "platform": null,
+        "serial": "",
+        "asset_tag": null,
+        "site": {
+            "id": 4,
+            "url": "http://0.0.0.0:8000/api/dcim/sites/4/",
+            "display": "HMC Coporate Headquaters",
+            "name": "HMC Coporate Headquaters",
+            "slug": "hmc-coporate-headquaters"
+        },
+        "location": {
+            "id": 1,
+            "url": "http://0.0.0.0:8000/api/dcim/locations/1/",
+            "display": "1st Floor",
+            "name": "1st Floor",
+            "slug": "FIRST",
+            "_depth": 0
+        },
+        "rack": {
+            "id": 3,
+            "url": "http://0.0.0.0:8000/api/dcim/racks/3/",
+            "display": "Data Centre Rack",
+            "name": "Data Centre Rack"
+        },
+        "position": null,
+        "face": null,
+        "parent_device": null,
+        "status": {
+            "value": "active",
+            "label": "Active"
+        },
+        "airflow": null,
+        "primary_ip": {
+            "id": 46,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/46/",
+            "display": "10.0.5.31/24",
+            "family": 4,
+            "address": "10.0.5.31/24"
+        },
+        "primary_ip4": {
+            "id": 46,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/46/",
+            "display": "10.0.5.31/24",
+            "family": 4,
+            "address": "10.0.5.31/24"
+        },
+        "primary_ip6": null,
+        "cluster": null,
+        "virtual_chassis": null,
+        "vc_position": null,
+        "vc_priority": null,
+        "description": "Core/distribution switch for the data centre site",
+        "comments": "",
+        "local_context_data": null,
+        "tags": [],
+        "custom_fields": {
+            "backup": "2023-02-07T02:10:27.809468Z"
+        },
+        "config_context": {},
+        "created": "2023-02-05T22:41:42.058042Z",
+        "last_updated": "2023-03-12T02:14:17.313997Z"
+    },
+    {
+        "id": 28,
+        "url": "http://0.0.0.0:8000/api/dcim/devices/28/",
+        "display": "CD-L3-2",
+        "name": "CD-L3-2",
+        "device_type": {
+            "id": 14,
+            "url": "http://0.0.0.0:8000/api/dcim/device-types/14/",
+            "display": "Catalyst 9300 24-slot",
+            "manufacturer": {
+                "id": 3,
+                "url": "http://0.0.0.0:8000/api/dcim/manufacturers/3/",
+                "display": "Cisco",
+                "name": "Cisco",
+                "slug": "Cisco"
+            },
+            "model": "Catalyst 9300 24-slot",
+            "slug": "SW9300"
+        },
+        "device_role": {
+            "id": 10,
+            "url": "http://0.0.0.0:8000/api/dcim/device-roles/10/",
+            "display": "Core/Distribution Switch",
+            "name": "Core/Distribution Switch",
+            "slug": "DIST-CORE"
+        },
+        "tenant": null,
+        "platform": null,
+        "serial": "",
+        "asset_tag": null,
+        "site": {
+            "id": 4,
+            "url": "http://0.0.0.0:8000/api/dcim/sites/4/",
+            "display": "HMC Coporate Headquaters",
+            "name": "HMC Coporate Headquaters",
+            "slug": "hmc-coporate-headquaters"
+        },
+        "location": {
+            "id": 1,
+            "url": "http://0.0.0.0:8000/api/dcim/locations/1/",
+            "display": "1st Floor",
+            "name": "1st Floor",
+            "slug": "FIRST",
+            "_depth": 0
+        },
+        "rack": {
+            "id": 3,
+            "url": "http://0.0.0.0:8000/api/dcim/racks/3/",
+            "display": "Data Centre Rack",
+            "name": "Data Centre Rack"
+        },
+        "position": null,
+        "face": null,
+        "parent_device": null,
+        "status": {
+            "value": "active",
+            "label": "Active"
+        },
+        "airflow": null,
+        "primary_ip": {
+            "id": 47,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/47/",
+            "display": "10.0.5.32/24",
+            "family": 4,
+            "address": "10.0.5.32/24"
+        },
+        "primary_ip4": {
+            "id": 47,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/47/",
+            "display": "10.0.5.32/24",
+            "family": 4,
+            "address": "10.0.5.32/24"
+        },
+        "primary_ip6": null,
+        "cluster": null,
+        "virtual_chassis": null,
+        "vc_position": null,
+        "vc_priority": null,
+        "description": "Core/distribution switch for the data centre site",
+        "comments": "",
+        "local_context_data": null,
+        "tags": [],
+        "custom_fields": {
+            "backup": "2023-02-05T23:49:15.216701Z"
+        },
+        "config_context": {},
+        "created": "2023-02-05T22:41:56.092146Z",
+        "last_updated": "2023-03-12T02:15:01.598330Z"
+    },
+    {
+        "id": 29,
+        "url": "http://0.0.0.0:8000/api/dcim/devices/29/",
+        "display": "D1-FW-1",
+        "name": "D1-FW-1",
+        "device_type": {
+            "id": 19,
+            "url": "http://0.0.0.0:8000/api/dcim/device-types/19/",
+            "display": "FortiGate 100D",
+            "manufacturer": {
+                "id": 5,
+                "url": "http://0.0.0.0:8000/api/dcim/manufacturers/5/",
+                "display": "Fortinet",
+                "name": "Fortinet",
+                "slug": "Fortinet"
+            },
+            "model": "FortiGate 100D",
+            "slug": "FW100D"
+        },
+        "device_role": {
+            "id": 12,
+            "url": "http://0.0.0.0:8000/api/dcim/device-roles/12/",
+            "display": "Edge Firewall",
+            "name": "Edge Firewall",
+            "slug": "EDG-FW"
+        },
+        "tenant": null,
+        "platform": null,
+        "serial": "",
+        "asset_tag": null,
+        "site": {
+            "id": 4,
+            "url": "http://0.0.0.0:8000/api/dcim/sites/4/",
+            "display": "HMC Coporate Headquaters",
+            "name": "HMC Coporate Headquaters",
+            "slug": "hmc-coporate-headquaters"
+        },
+        "location": {
+            "id": 1,
+            "url": "http://0.0.0.0:8000/api/dcim/locations/1/",
+            "display": "1st Floor",
+            "name": "1st Floor",
+            "slug": "FIRST",
+            "_depth": 0
+        },
+        "rack": {
+            "id": 3,
+            "url": "http://0.0.0.0:8000/api/dcim/racks/3/",
+            "display": "Data Centre Rack",
+            "name": "Data Centre Rack"
+        },
+        "position": null,
+        "face": null,
+        "parent_device": null,
+        "status": {
+            "value": "active",
+            "label": "Active"
+        },
+        "airflow": null,
+        "primary_ip": {
+            "id": 48,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/48/",
+            "display": "10.0.5.100/24",
+            "family": 4,
+            "address": "10.0.5.100/24"
+        },
+        "primary_ip4": {
+            "id": 48,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/48/",
+            "display": "10.0.5.100/24",
+            "family": 4,
+            "address": "10.0.5.100/24"
+        },
+        "primary_ip6": null,
+        "cluster": null,
+        "virtual_chassis": null,
+        "vc_position": null,
+        "vc_priority": null,
+        "description": "Firewall for the main data centre site",
+        "comments": "",
+        "local_context_data": null,
+        "tags": [],
+        "custom_fields": {
+            "backup": null
+        },
+        "config_context": {},
+        "created": "2023-02-05T22:42:31.495098Z",
+        "last_updated": "2023-03-12T04:12:02.950956Z"
+    },
+    {
+        "id": 34,
+        "url": "http://0.0.0.0:8000/api/dcim/devices/34/",
+        "display": "F1-A-L3-1",
+        "name": "F1-A-L3-1",
+        "device_type": {
+            "id": 15,
+            "url": "http://0.0.0.0:8000/api/dcim/device-types/15/",
+            "display": "Catalyst 3650 24-slot",
+            "manufacturer": {
+                "id": 3,
+                "url": "http://0.0.0.0:8000/api/dcim/manufacturers/3/",
+                "display": "Cisco",
+                "name": "Cisco",
+                "slug": "Cisco"
+            },
+            "model": "Catalyst 3650 24-slot",
+            "slug": "SW3650"
+        },
+        "device_role": {
+            "id": 8,
+            "url": "http://0.0.0.0:8000/api/dcim/device-roles/8/",
+            "display": "Access Switch",
+            "name": "Access Switch",
+            "slug": "ACCESS"
+        },
+        "tenant": null,
+        "platform": null,
+        "serial": "",
+        "asset_tag": null,
+        "site": {
+            "id": 4,
+            "url": "http://0.0.0.0:8000/api/dcim/sites/4/",
+            "display": "HMC Coporate Headquaters",
+            "name": "HMC Coporate Headquaters",
+            "slug": "hmc-coporate-headquaters"
+        },
+        "location": {
+            "id": 1,
+            "url": "http://0.0.0.0:8000/api/dcim/locations/1/",
+            "display": "1st Floor",
+            "name": "1st Floor",
+            "slug": "FIRST",
+            "_depth": 0
+        },
+        "rack": {
+            "id": 3,
+            "url": "http://0.0.0.0:8000/api/dcim/racks/3/",
+            "display": "Data Centre Rack",
+            "name": "Data Centre Rack"
+        },
+        "position": null,
+        "face": null,
+        "parent_device": null,
+        "status": {
+            "value": "active",
+            "label": "Active"
+        },
+        "airflow": null,
+        "primary_ip": {
+            "id": 96,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/96/",
+            "display": "10.0.5.21/24",
+            "family": 4,
+            "address": "10.0.5.21/24"
+        },
+        "primary_ip4": {
+            "id": 96,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/96/",
+            "display": "10.0.5.21/24",
+            "family": 4,
+            "address": "10.0.5.21/24"
+        },
+        "primary_ip6": null,
+        "cluster": null,
+        "virtual_chassis": null,
+        "vc_position": null,
+        "vc_priority": null,
+        "description": "",
+        "comments": "",
+        "local_context_data": null,
+        "tags": [],
+        "custom_fields": {
+            "backup": null
+        },
+        "config_context": {},
+        "created": "2023-03-12T02:17:49.204615Z",
+        "last_updated": "2023-03-12T02:29:34.864050Z"
+    },
+    {
+        "id": 35,
+        "url": "http://0.0.0.0:8000/api/dcim/devices/35/",
+        "display": "F1-A-L3-2",
+        "name": "F1-A-L3-2",
+        "device_type": {
+            "id": 15,
+            "url": "http://0.0.0.0:8000/api/dcim/device-types/15/",
+            "display": "Catalyst 3650 24-slot",
+            "manufacturer": {
+                "id": 3,
+                "url": "http://0.0.0.0:8000/api/dcim/manufacturers/3/",
+                "display": "Cisco",
+                "name": "Cisco",
+                "slug": "Cisco"
+            },
+            "model": "Catalyst 3650 24-slot",
+            "slug": "SW3650"
+        },
+        "device_role": {
+            "id": 8,
+            "url": "http://0.0.0.0:8000/api/dcim/device-roles/8/",
+            "display": "Access Switch",
+            "name": "Access Switch",
+            "slug": "ACCESS"
+        },
+        "tenant": null,
+        "platform": null,
+        "serial": "",
+        "asset_tag": null,
+        "site": {
+            "id": 4,
+            "url": "http://0.0.0.0:8000/api/dcim/sites/4/",
+            "display": "HMC Coporate Headquaters",
+            "name": "HMC Coporate Headquaters",
+            "slug": "hmc-coporate-headquaters"
+        },
+        "location": {
+            "id": 1,
+            "url": "http://0.0.0.0:8000/api/dcim/locations/1/",
+            "display": "1st Floor",
+            "name": "1st Floor",
+            "slug": "FIRST",
+            "_depth": 0
+        },
+        "rack": {
+            "id": 3,
+            "url": "http://0.0.0.0:8000/api/dcim/racks/3/",
+            "display": "Data Centre Rack",
+            "name": "Data Centre Rack"
+        },
+        "position": null,
+        "face": null,
+        "parent_device": null,
+        "status": {
+            "value": "active",
+            "label": "Active"
+        },
+        "airflow": null,
+        "primary_ip": {
+            "id": 97,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/97/",
+            "display": "10.0.5.22/24",
+            "family": 4,
+            "address": "10.0.5.22/24"
+        },
+        "primary_ip4": {
+            "id": 97,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/97/",
+            "display": "10.0.5.22/24",
+            "family": 4,
+            "address": "10.0.5.22/24"
+        },
+        "primary_ip6": null,
+        "cluster": null,
+        "virtual_chassis": null,
+        "vc_position": null,
+        "vc_priority": null,
+        "description": "",
+        "comments": "",
+        "local_context_data": null,
+        "tags": [],
+        "custom_fields": {
+            "backup": null
+        },
+        "config_context": {},
+        "created": "2023-03-12T02:18:24.291091Z",
+        "last_updated": "2023-03-12T04:28:20.193121Z"
+    },
+    {
+        "id": 36,
+        "url": "http://0.0.0.0:8000/api/dcim/devices/36/",
+        "display": "UH-CD-L3-1",
+        "name": "UH-CD-L3-1",
+        "device_type": {
+            "id": 14,
+            "url": "http://0.0.0.0:8000/api/dcim/device-types/14/",
+            "display": "Catalyst 9300 24-slot",
+            "manufacturer": {
+                "id": 3,
+                "url": "http://0.0.0.0:8000/api/dcim/manufacturers/3/",
+                "display": "Cisco",
+                "name": "Cisco",
+                "slug": "Cisco"
+            },
+            "model": "Catalyst 9300 24-slot",
+            "slug": "SW9300"
+        },
+        "device_role": {
+            "id": 10,
+            "url": "http://0.0.0.0:8000/api/dcim/device-roles/10/",
+            "display": "Core/Distribution Switch",
+            "name": "Core/Distribution Switch",
+            "slug": "DIST-CORE"
+        },
+        "tenant": null,
+        "platform": null,
+        "serial": "",
+        "asset_tag": null,
+        "site": {
+            "id": 5,
+            "url": "http://0.0.0.0:8000/api/dcim/sites/5/",
+            "display": "HMC Ultrahousing",
+            "name": "HMC Ultrahousing",
+            "slug": "REMOTE"
+        },
+        "location": {
+            "id": 5,
+            "url": "http://0.0.0.0:8000/api/dcim/locations/5/",
+            "display": "1st Floor",
+            "name": "1st Floor",
+            "slug": "1st-floor",
+            "_depth": 0
+        },
+        "rack": {
+            "id": 4,
+            "url": "http://0.0.0.0:8000/api/dcim/racks/4/",
+            "display": "Ultrahousing Rack",
+            "name": "Ultrahousing Rack"
+        },
+        "position": null,
+        "face": null,
+        "parent_device": null,
+        "status": {
+            "value": "active",
+            "label": "Active"
+        },
+        "airflow": null,
+        "primary_ip": {
+            "id": 100,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/100/",
+            "display": "10.30.5.31/24",
+            "family": 4,
+            "address": "10.30.5.31/24"
+        },
+        "primary_ip4": {
+            "id": 100,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/100/",
+            "display": "10.30.5.31/24",
+            "family": 4,
+            "address": "10.30.5.31/24"
+        },
+        "primary_ip6": null,
+        "cluster": null,
+        "virtual_chassis": null,
+        "vc_position": null,
+        "vc_priority": null,
+        "description": "",
+        "comments": "",
+        "local_context_data": null,
+        "tags": [],
+        "custom_fields": {
+            "backup": null
+        },
+        "config_context": {},
+        "created": "2023-03-17T21:33:20.855119Z",
+        "last_updated": "2023-03-17T21:40:49.796115Z"
+    },
+    {
+        "id": 37,
+        "url": "http://0.0.0.0:8000/api/dcim/devices/37/",
+        "display": "UH-CD-L3-2",
+        "name": "UH-CD-L3-2",
+        "device_type": {
+            "id": 14,
+            "url": "http://0.0.0.0:8000/api/dcim/device-types/14/",
+            "display": "Catalyst 9300 24-slot",
+            "manufacturer": {
+                "id": 3,
+                "url": "http://0.0.0.0:8000/api/dcim/manufacturers/3/",
+                "display": "Cisco",
+                "name": "Cisco",
+                "slug": "Cisco"
+            },
+            "model": "Catalyst 9300 24-slot",
+            "slug": "SW9300"
+        },
+        "device_role": {
+            "id": 10,
+            "url": "http://0.0.0.0:8000/api/dcim/device-roles/10/",
+            "display": "Core/Distribution Switch",
+            "name": "Core/Distribution Switch",
+            "slug": "DIST-CORE"
+        },
+        "tenant": null,
+        "platform": null,
+        "serial": "",
+        "asset_tag": null,
+        "site": {
+            "id": 5,
+            "url": "http://0.0.0.0:8000/api/dcim/sites/5/",
+            "display": "HMC Ultrahousing",
+            "name": "HMC Ultrahousing",
+            "slug": "REMOTE"
+        },
+        "location": {
+            "id": 5,
+            "url": "http://0.0.0.0:8000/api/dcim/locations/5/",
+            "display": "1st Floor",
+            "name": "1st Floor",
+            "slug": "1st-floor",
+            "_depth": 0
+        },
+        "rack": {
+            "id": 4,
+            "url": "http://0.0.0.0:8000/api/dcim/racks/4/",
+            "display": "Ultrahousing Rack",
+            "name": "Ultrahousing Rack"
+        },
+        "position": null,
+        "face": null,
+        "parent_device": null,
+        "status": {
+            "value": "active",
+            "label": "Active"
+        },
+        "airflow": null,
+        "primary_ip": {
+            "id": 99,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/99/",
+            "display": "10.30.5.32/24",
+            "family": 4,
+            "address": "10.30.5.32/24"
+        },
+        "primary_ip4": {
+            "id": 99,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/99/",
+            "display": "10.30.5.32/24",
+            "family": 4,
+            "address": "10.30.5.32/24"
+        },
+        "primary_ip6": null,
+        "cluster": null,
+        "virtual_chassis": null,
+        "vc_position": null,
+        "vc_priority": null,
+        "description": "",
+        "comments": "",
+        "local_context_data": null,
+        "tags": [],
+        "custom_fields": {
+            "backup": null
+        },
+        "config_context": {},
+        "created": "2023-03-17T21:33:20.910514Z",
+        "last_updated": "2023-03-17T21:39:45.915566Z"
+    },
+    {
+        "id": 38,
+        "url": "http://0.0.0.0:8000/api/dcim/devices/38/",
+        "display": "UH-D1-FW-1",
+        "name": "UH-D1-FW-1",
+        "device_type": {
+            "id": 19,
+            "url": "http://0.0.0.0:8000/api/dcim/device-types/19/",
+            "display": "FortiGate 100D",
+            "manufacturer": {
+                "id": 5,
+                "url": "http://0.0.0.0:8000/api/dcim/manufacturers/5/",
+                "display": "Fortinet",
+                "name": "Fortinet",
+                "slug": "Fortinet"
+            },
+            "model": "FortiGate 100D",
+            "slug": "FW100D"
+        },
+        "device_role": {
+            "id": 12,
+            "url": "http://0.0.0.0:8000/api/dcim/device-roles/12/",
+            "display": "Edge Firewall",
+            "name": "Edge Firewall",
+            "slug": "EDG-FW"
+        },
+        "tenant": null,
+        "platform": null,
+        "serial": "",
+        "asset_tag": null,
+        "site": {
+            "id": 5,
+            "url": "http://0.0.0.0:8000/api/dcim/sites/5/",
+            "display": "HMC Ultrahousing",
+            "name": "HMC Ultrahousing",
+            "slug": "REMOTE"
+        },
+        "location": {
+            "id": 5,
+            "url": "http://0.0.0.0:8000/api/dcim/locations/5/",
+            "display": "1st Floor",
+            "name": "1st Floor",
+            "slug": "1st-floor",
+            "_depth": 0
+        },
+        "rack": {
+            "id": 4,
+            "url": "http://0.0.0.0:8000/api/dcim/racks/4/",
+            "display": "Ultrahousing Rack",
+            "name": "Ultrahousing Rack"
+        },
+        "position": null,
+        "face": null,
+        "parent_device": null,
+        "status": {
+            "value": "active",
+            "label": "Active"
+        },
+        "airflow": null,
+        "primary_ip": {
+            "id": 98,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/98/",
+            "display": "10.30.5.100/24",
+            "family": 4,
+            "address": "10.30.5.100/24"
+        },
+        "primary_ip4": {
+            "id": 98,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/98/",
+            "display": "10.30.5.100/24",
+            "family": 4,
+            "address": "10.30.5.100/24"
+        },
+        "primary_ip6": null,
+        "cluster": null,
+        "virtual_chassis": null,
+        "vc_position": null,
+        "vc_priority": null,
+        "description": "",
+        "comments": "",
+        "local_context_data": null,
+        "tags": [],
+        "custom_fields": {
+            "backup": null
+        },
+        "config_context": {},
+        "created": "2023-03-17T21:33:20.935046Z",
+        "last_updated": "2023-03-17T21:38:11.986931Z"
+    },
+    {
+        "id": 39,
+        "url": "http://0.0.0.0:8000/api/dcim/devices/39/",
+        "display": "UH-F1-A-L3-1",
+        "name": "UH-F1-A-L3-1",
+        "device_type": {
+            "id": 15,
+            "url": "http://0.0.0.0:8000/api/dcim/device-types/15/",
+            "display": "Catalyst 3650 24-slot",
+            "manufacturer": {
+                "id": 3,
+                "url": "http://0.0.0.0:8000/api/dcim/manufacturers/3/",
+                "display": "Cisco",
+                "name": "Cisco",
+                "slug": "Cisco"
+            },
+            "model": "Catalyst 3650 24-slot",
+            "slug": "SW3650"
+        },
+        "device_role": {
+            "id": 8,
+            "url": "http://0.0.0.0:8000/api/dcim/device-roles/8/",
+            "display": "Access Switch",
+            "name": "Access Switch",
+            "slug": "ACCESS"
+        },
+        "tenant": null,
+        "platform": null,
+        "serial": "",
+        "asset_tag": null,
+        "site": {
+            "id": 5,
+            "url": "http://0.0.0.0:8000/api/dcim/sites/5/",
+            "display": "HMC Ultrahousing",
+            "name": "HMC Ultrahousing",
+            "slug": "REMOTE"
+        },
+        "location": {
+            "id": 5,
+            "url": "http://0.0.0.0:8000/api/dcim/locations/5/",
+            "display": "1st Floor",
+            "name": "1st Floor",
+            "slug": "1st-floor",
+            "_depth": 0
+        },
+        "rack": {
+            "id": 4,
+            "url": "http://0.0.0.0:8000/api/dcim/racks/4/",
+            "display": "Ultrahousing Rack",
+            "name": "Ultrahousing Rack"
+        },
+        "position": null,
+        "face": null,
+        "parent_device": null,
+        "status": {
+            "value": "active",
+            "label": "Active"
+        },
+        "airflow": null,
+        "primary_ip": {
+            "id": 102,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/102/",
+            "display": "10.30.5.21/24",
+            "family": 4,
+            "address": "10.30.5.21/24"
+        },
+        "primary_ip4": {
+            "id": 102,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/102/",
+            "display": "10.30.5.21/24",
+            "family": 4,
+            "address": "10.30.5.21/24"
+        },
+        "primary_ip6": null,
+        "cluster": null,
+        "virtual_chassis": null,
+        "vc_position": null,
+        "vc_priority": null,
+        "description": "",
+        "comments": "",
+        "local_context_data": null,
+        "tags": [],
+        "custom_fields": {
+            "backup": null
+        },
+        "config_context": {},
+        "created": "2023-03-17T21:33:20.959100Z",
+        "last_updated": "2023-03-17T21:42:33.877798Z"
+    },
+    {
+        "id": 40,
+        "url": "http://0.0.0.0:8000/api/dcim/devices/40/",
+        "display": "UH-F1-A-L3-2",
+        "name": "UH-F1-A-L3-2",
+        "device_type": {
+            "id": 15,
+            "url": "http://0.0.0.0:8000/api/dcim/device-types/15/",
+            "display": "Catalyst 3650 24-slot",
+            "manufacturer": {
+                "id": 3,
+                "url": "http://0.0.0.0:8000/api/dcim/manufacturers/3/",
+                "display": "Cisco",
+                "name": "Cisco",
+                "slug": "Cisco"
+            },
+            "model": "Catalyst 3650 24-slot",
+            "slug": "SW3650"
+        },
+        "device_role": {
+            "id": 8,
+            "url": "http://0.0.0.0:8000/api/dcim/device-roles/8/",
+            "display": "Access Switch",
+            "name": "Access Switch",
+            "slug": "ACCESS"
+        },
+        "tenant": null,
+        "platform": null,
+        "serial": "",
+        "asset_tag": null,
+        "site": {
+            "id": 5,
+            "url": "http://0.0.0.0:8000/api/dcim/sites/5/",
+            "display": "HMC Ultrahousing",
+            "name": "HMC Ultrahousing",
+            "slug": "REMOTE"
+        },
+        "location": {
+            "id": 5,
+            "url": "http://0.0.0.0:8000/api/dcim/locations/5/",
+            "display": "1st Floor",
+            "name": "1st Floor",
+            "slug": "1st-floor",
+            "_depth": 0
+        },
+        "rack": {
+            "id": 4,
+            "url": "http://0.0.0.0:8000/api/dcim/racks/4/",
+            "display": "Ultrahousing Rack",
+            "name": "Ultrahousing Rack"
+        },
+        "position": null,
+        "face": null,
+        "parent_device": null,
+        "status": {
+            "value": "active",
+            "label": "Active"
+        },
+        "airflow": null,
+        "primary_ip": {
+            "id": 101,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/101/",
+            "display": "10.30.5.22/24",
+            "family": 4,
+            "address": "10.30.5.22/24"
+        },
+        "primary_ip4": {
+            "id": 101,
+            "url": "http://0.0.0.0:8000/api/ipam/ip-addresses/101/",
+            "display": "10.30.5.22/24",
+            "family": 4,
+            "address": "10.30.5.22/24"
+        },
+        "primary_ip6": null,
+        "cluster": null,
+        "virtual_chassis": null,
+        "vc_position": null,
+        "vc_priority": null,
+        "description": "",
+        "comments": "",
+        "local_context_data": null,
+        "tags": [],
+        "custom_fields": {
+            "backup": null
+        },
+        "config_context": {},
+        "created": "2023-03-17T21:33:20.983585Z",
+        "last_updated": "2023-03-17T21:41:44.074671Z"
+    }
+]
