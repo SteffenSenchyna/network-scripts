@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 from datetime import datetime, timedelta
 import pytz
 import time
-import json
 from pymongo import MongoClient
 import speedtest
 # To login into mongo container shell
@@ -12,7 +11,7 @@ import speedtest
 # use network
 # db.bandwidth.find()
 # db.bandwidth.deleteMany({})
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('mongodb://0.0.0.0:27017/')
 networkDB = client.network
 bandwidthTable = networkDB.bandwidth
 speed_test = speedtest.Speedtest()
@@ -36,6 +35,7 @@ try:
             "uploadSpeed":  upload_speed,
             "created_at": datetime.utcnow(),
         }
+        print(bandwidth)
         result = bandwidthTable.insert_one(bandwidth)
         counter += 30
         time.sleep(30)

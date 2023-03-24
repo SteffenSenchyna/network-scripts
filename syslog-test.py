@@ -1,13 +1,19 @@
 import logging
 import logging.handlers
+import socket
 
-logger = logging.getLogger()
-logger.setLevel(logging.INFO)
-# Set the facility to local7 (23)
-facility = logging.handlers.SysLogHandler.LOG_LOCAL7
 
-handler = logging.handlers.SysLogHandler(
-    address=('0.0.0.0', 514), facility=facility)
-logger.addHandler(handler)
+def syslogMock():
+    logger = logging.getLogger()
+    # Set the facility to local7 (23)
+    facility = logging.handlers.SysLogHandler.LOG_LOCAL7
 
-logger.error('Test syslog message')
+    handler = logging.handlers.SysLogHandler(
+        address=('0.0.0.0', 514))
+    logger.addHandler(handler)
+
+    logger.critical(
+        "104: *Mar 22 21:29:10.128: %SYS-5-CONFIG_I: Configured from console by console")
+
+
+syslogMock()

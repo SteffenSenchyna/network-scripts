@@ -9,7 +9,7 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 
 def getScan():
     load_dotenv()
-    discordURL = "https://discord.com/api/webhooks/1067155298034384906/meigZeTZ4R6rR11tbhV99-V1NcUTQQFueAX3VjXOESY7pqD91Sle3U3J4cfZaghZcZft"
+    discordURL = "https://discord.com/api/webhooks/1088239694464168088/wNsQL0Pem8UAUrqpNKqfXSJwho4jExIPNGpXQGVn7txCUNpUm0e2uv879L3S3U84Iz8U"
     url = "http://0.0.0.0:8000/api/dcim/devices/"
     threads = []
     headers = {
