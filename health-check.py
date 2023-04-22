@@ -9,7 +9,7 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 
 def getScan():
     load_dotenv()
-    discordURL = "https://discord.com/api/webhooks/1088239694464168088/wNsQL0Pem8UAUrqpNKqfXSJwho4jExIPNGpXQGVn7txCUNpUm0e2uv879L3S3U84Iz8U"
+    discordURL = os.environ["DISCORDURL"]
     url = "http://0.0.0.0:8000/api/dcim/devices/"
     threads = []
     headers = {
@@ -35,8 +35,9 @@ def getScan():
 
     try:
         for i in response:
+            ip = i["primary_ip4"]["address"].split("/")
             t = threading.Thread(target=ping, args=(
-                i["primary_ip4"]["address"], i, downHosts))
+                ip[0], i, downHosts))
             t.start()
             threads.append(t)
         for t in threads:

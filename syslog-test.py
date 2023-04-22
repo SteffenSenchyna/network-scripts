@@ -16,4 +16,6 @@ def syslogMock():
         "104: *Mar 22 21:29:10.128: %SYS-5-CONFIG_I: Configured from console by console")
 
 
-syslogMock()
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+sock.sendto(
+    b'<10>104: *Mar 22 21:29:10.128: %SYS-5-CONFIG_I: Configured from console by console', ('10.0.5.141', 30514))

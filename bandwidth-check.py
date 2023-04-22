@@ -35,7 +35,6 @@ try:
             "uploadSpeed":  upload_speed,
             "created_at": datetime.utcnow(),
         }
-        print(bandwidth)
         result = bandwidthTable.insert_one(bandwidth)
         counter += 30
         time.sleep(30)
